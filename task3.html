@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../Downloads/jquery.min.js"></script>
+    <script src="../../Downloads/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../Downloads/bootstrap.min.css">
+    <script src="../../Downloads/popper.min.js"></script>
+    <script src="../../Downloads/a076d05399.js"></script>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+         <h1 class="text-center">Registration Form</h1>
+         <hr>
+         <div class=" mt-4">
+             <form class="width">
+                 <div class="row">
+                   <div class="col">
+                       <label for="First name">First name</label>
+                     <input type="text" class="form-control">
+                   </div>
+                   <div class="col">
+                     <label for="Last name">Last name</label>
+                     <input type="text" class="form-control">
+                   </div>
+                 </div>
+               </form>
+               <div class="width mt-4">
+                   <lable for="User name"> User name</lable>
+                   <div class="input-group mb-3 mt-2">
+                     <div class="input-group-prepend">
+                       <span class="input-group-text" id="gmail">@</span>
+                     </div>
+                     <input type="text" class="form-control" placeholder="Username">
+                   </div>
+               </div>
+               <div class="width mt-4">
+                 <lable for="Email(optional)"> Email<span class="text-muted">(optional)</span></lable>
+                 <div class="input-group">
+                     <input type="email" class="form-control mt-2" placeholder="you@example.com" >
+                 </div>
+               </div>
+               <div class="width mt-4">
+                 <lable for="Address"> Address</lable>
+                 <div class="input-group">
+                     <input type="email" class="form-control mt-2" placeholder="1234 street1" >
+                 </div>
+               </div>
+               <div class="width mt-4">
+                 <lable for="Address">Address</lable>
+                 <div class="input-group">
+                     <input type="email" class="form-control mt-2" placeholder="Aparament or villa" >
+                 </div>
+               </div> 
+               <form class=" mt-4 width">
+                 <div class="row">
+                   <div class="col-5">
+                       <label for="country">Country</label>
+                       <select class="custom-select" id="country">
+                         <option selected>Choose...</option>
+                         <option value="1">india</option>
+                         <option value="2">russia</option>
+                         <option value="3">japan</option>
+                       </select>
+                   </div>
+                   <div class="col-4">
+                     <label for="State">State</label>
+                     <select class="custom-select" id="state">
+                         <option selected>Choose...</option>
+                         <option value="1">tamil nadu</option>
+                         <option value="2">kerala</option>
+                         <option value="3">Andra pradesh</option>
+                       </select>
+                   </div>
+                   <div class="col-3">
+                     <label for="Zip">Zip</label>
+                     <input type="text" class="form-control">
+                   </div>
+                 </div>
+                 <hr>
+                 
+                   <button type="button" class="btn btn-primary btn-lg btn-block">Continue to checkout</button>
+               </form>  
+         </div>
+     </div>
+</body>
+</html>
